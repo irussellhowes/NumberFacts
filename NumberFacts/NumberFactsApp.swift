@@ -11,7 +11,7 @@ import SwiftUI
 struct NumberFactsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FactsPageView()
         }
     }
 }
