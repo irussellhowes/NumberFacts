@@ -19,7 +19,6 @@ struct NumberComputations {
             return "false"
         }
     }
-    
     var divisibility: String {
         if number <= 1 {
             return "false"
@@ -30,6 +29,12 @@ struct NumberComputations {
             }
         }
         return "true"
+    }
+    var square: Int {
+        return number * number
+    }
+    var cube: Int {
+        return number * number * number
     }
     
 }
