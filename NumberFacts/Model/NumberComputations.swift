@@ -36,6 +36,13 @@ struct NumberComputations {
     var cube: Int {
         return number * number * number
     }
-    
+    var factors = { (number: Int) -> [Int] in
+        var factors = [Int]()
+        for i in 1...number {
+            if number % i == 0 {
+                factors.append(i)
+            }
+        }
+        return factors
+    }
 }
-
