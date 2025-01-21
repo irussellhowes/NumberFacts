@@ -11,7 +11,7 @@
 		66A7A4C22D3E9941000E5C02 /* NumberFactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4BF2D3E9941000E5C02 /* NumberFactsApp.swift */; };
 		66A7A4C32D3E9941000E5C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A4BB2D3E9941000E5C02 /* Preview Assets.xcassets */; };
 		66A7A4C42D3E9941000E5C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A7A4BD2D3E9941000E5C02 /* Assets.xcassets */; };
-		66A7A4CA2D3E9D7F000E5C02 /* NumberComputations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4C92D3E9D7F000E5C02 /* NumberComputations.swift */; };
+		66A7A4CA2D3E9D7F000E5C02 /* numberComputations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A7A4C92D3E9D7F000E5C02 /* numberComputations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		66A7A4BD2D3E9941000E5C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A7A4BE2D3E9941000E5C02 /* FactsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsPageView.swift; sourceTree = "<group>"; };
 		66A7A4BF2D3E9941000E5C02 /* NumberFactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactsApp.swift; sourceTree = "<group>"; };
-		66A7A4C92D3E9D7F000E5C02 /* NumberComputations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberComputations.swift; sourceTree = "<group>"; };
+		66A7A4C92D3E9D7F000E5C02 /* numberComputations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberComputations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		66A7A4C62D3E9D09000E5C02 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				66A7A4C92D3E9D7F000E5C02 /* NumberComputations.swift */,
+				66A7A4C92D3E9D7F000E5C02 /* numberComputations.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			files = (
 				66A7A4C12D3E9941000E5C02 /* FactsPageView.swift in Sources */,
 				66A7A4C22D3E9941000E5C02 /* NumberFactsApp.swift in Sources */,
-				66A7A4CA2D3E9D7F000E5C02 /* NumberComputations.swift in Sources */,
+				66A7A4CA2D3E9D7F000E5C02 /* numberComputations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

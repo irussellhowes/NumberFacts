@@ -7,28 +7,28 @@
 
 import Foundation
 
-struct NumberComputations {
+struct numberComputations {
     //stored property
     var number: Int
     //Computed Properties
     var parity: String {
         let isDivisibleBy2 = number % 2 == 0
         if isDivisibleBy2 {
-            return "true"
+            return "Even"
         } else {
-            return "false"
+            return "Odd"
         }
     }
     var divisibility: String {
         if number <= 1 {
-            return "false"
+            return "Composite"
         }
         for i in 2..<number {
             if number % i == 0 {
-                return "false"
+                return "Composite"
             }
         }
-        return "true"
+        return "Prime"
     }
     var square: Int {
         return number * number
