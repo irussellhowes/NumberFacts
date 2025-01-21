@@ -30,11 +30,6 @@ struct FactsPageView: View {
     }
 }
 
-struct FactsPageView_Previews: PreviewProvider {
-    static var previews: some View {
-        FactsPageView()
-    }
-}
 
 #Preview {
     FactsPageView()
