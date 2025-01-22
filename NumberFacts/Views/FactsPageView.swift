@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FactsPageView: View {
     
-    @State private var NumberComputations = numberComputations(number: 2)
+    @State private var numberComputations = NumberComputations(number: 2)
     @State private var textFieldData = ""
     
     var body: some View {
@@ -20,10 +20,10 @@ struct FactsPageView: View {
             TextField("Ex. 2", text: $textFieldData)
                 .keyboardType(UIKeyboardType.numberPad)
                 .padding(.horizontal)
-            Text("Parity: \(NumberComputations.parity)")
-            Text("Divisibility: \(NumberComputations.divisibility)")
-            Text("Square: \(NumberComputations.square)")
-            Text("Cube: \(NumberComputations.cube)")
+            Text("Parity: \(numberComputations.parity)")
+            Text("Divisibility: \(numberComputations.divisibility)")
+            Text("Square: \(numberComputations.square)")
+            Text("Cube: \(numberComputations.cube)")
         }
         .font(.headline)
         Spacer()

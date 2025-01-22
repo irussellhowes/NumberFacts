@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct numberComputations {
+struct NumberComputations {
     //stored property
     var number: Int
     //Computed Properties
