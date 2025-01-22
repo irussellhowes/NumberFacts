@@ -18,6 +18,9 @@ struct FactsPageView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
             TextField("Ex. 2", text: $textFieldData)
+                .onChange(of: textFieldData, { oldValue, newValue in
+                    textFieldData = String(newValue.prefix(5))
+                })
                 .keyboardType(UIKeyboardType.numberPad)
                 .padding(.horizontal)
                 .onChange(of: textFieldData) { oldValue, newValue in
