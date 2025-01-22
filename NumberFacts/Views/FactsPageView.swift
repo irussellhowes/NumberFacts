@@ -37,7 +37,7 @@ struct FactsPageView: View {
                 Text("Save")
                     .padding()
                     .foregroundStyle(.white)
-                    .background(Color.pink, in: Capsule())
+                    .background(Color.red, in: Capsule())
                     .padding()
             }
             
