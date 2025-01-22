@@ -32,6 +32,16 @@ struct FactsPageView: View {
             Text("Divisibility: \(numberComputations.divisibility)")
             Text("Square: \(numberComputations.square)")
             Text("Cube: \(numberComputations.cube)")
+            
+            Button(action: {}) {
+                Text("Save")
+                    .frame(maxWidth: .infinity)
+                    .foregroundStyle(.white)
+                    .background(Color.pink)
+                    .padding(.vertical)
+                    .font(.title2)
+            }
+            
         }
         .font(.headline)
         Spacer()
