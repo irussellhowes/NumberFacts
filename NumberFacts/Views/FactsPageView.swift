@@ -20,6 +20,11 @@ struct FactsPageView: View {
             TextField("Ex. 2", text: $textFieldData)
                 .keyboardType(UIKeyboardType.numberPad)
                 .padding(.horizontal)
+                .onChange(of: textFieldData) { oldValue, newValue in
+                    if let number = Int(newValue), newValue != oldValue {
+                        numberComputations = NumberComputations(number: number)
+                    }
+                }
             Text("Parity: \(numberComputations.parity)")
             Text("Divisibility: \(numberComputations.divisibility)")
             Text("Square: \(numberComputations.square)")
